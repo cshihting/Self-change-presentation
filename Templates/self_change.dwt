@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>改變力</title>
+<!-- TemplateEndEditable -->
+<!-- Bootstrap Core CSS -->
+<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="../css/myCSS.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--smooth scrolling-->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body id="top" data-target="#navbar-spy" data-spy="scroll">
+
+<nav class="navbar navbar-inverse navbar-fixed-top " id="navbar-spy">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand page-scroll" href="../html/self_change.html">Self Change</a>
+            </div>
+            
+			<div class="collapse navbar-collapse " id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="#part1" class="page-scroll">Part 1</a></li>
+				  <li><a href="#part2" class="page-scroll">Part 2</a></li>
+				  <li><a href="#part3" class="page-scroll">Part 3</a></li>
+				  <li><a href="#part4" class="page-scroll">Part 4</a></li>
+				  <li style="float:right"><a class="page-scroll active transition" href="../about.html" target="_blank">About</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+	</div>	
+	<!-- /.container-fluid -->
+</nav>
+
+<section id="hero" class="hero-image">
+	<div class="hero-text">
+		<h1 style="font-size:50px">I am Eileen</h1>
+		<p>Welcome to My Page</p>
+	</div>
+</section>
+<!-- TemplateBeginEditable name="EditRegion1" -->
+<section id="part1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="margin-top:50px;">Share with you</h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container-1">
+    <div class="row">
+      <div class="col-sm-4 text-center"> <i class="fa fa-4x fa-heart text-primary sr-icons" style="color:#F3A60D;"></i>
+        <h3>Belief</h3>
+        <p class="text-muted">Believe It Or Not</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="dropdown"> <i class="fa fa-4x fa-pencil text-primary sr-icons" style="color:#F3A60D"></i>
+          <h3>Goal</h3>
+          <div class="dropdown-content img-rounded">
+            <p>If you set your goals ridiculously high and it’s a failure, <br>
+              you will fail above everyone else’s success. </p>
+          </div>
+          <p class="text-muted">Set A Ridiculous Goal</p>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center"> <i class="fa fa-4x fa-globe fa-spin text-primary sr-icons" style="color:#F3A60D"></i>
+        <h3>Diligent</h3>
+        <p class="text-muted">Keep Moving On</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- TemplateEndEditable -->
+<section id="part2" class="s2">
+<div class="container-2">
+  <div class="row portfolio">
+		<div class="col-sm-6 container">
+		<a href="../miner.html" class="transition"><img src="../image_button/1.jpg" alt=""></a>
+		<div class="middle">
+		<div class="text">Miner</div>
+		</div>
+		</div>
+		<div class="col-sm-6 container">
+		<a href="../html/paper.html" class="transition"><img src="../image_button/2.jpg" alt=""></a>
+		<div class="middle">
+		<div class="text">Paper</div>
+		</div>
+		</div>
+		<div class="col-sm-6 container">
+		<a href="../caterpillar.html" class="transition"><img src="../image_button/3.jpg" alt=""></a>
+		<div class="middle">
+		<div class="text">Caterpillar</div>
+		</div>
+		</div>
+		<div class="col-sm-6 container">
+		<a href="../html/sea.html" class="transition"><img src="../image_button/4.jpg" alt=""></a>
+		<div class="middle">
+		<div class="text">Cross Sea</div>
+		</div>
+		</div>
+		<div class="col-sm-6 container">
+		<a href="../html/health.html" class="transition"><img src="../image_button/5.jpg" alt=""></a>
+		<div class="middle">
+		<div class="text">Health</div>
+		</div>
+		</div>
+		<div class="col-sm-6 container">
+		<a href="../edison.html" class="transition"><img src="../image_button/6.jpg" alt=""></a>
+		<div class="middle">
+		<div class="text">Edison</div>
+		</div>
+		</div>
+   </div>
+</div>
+</section>
+<!-- TemplateBeginEditable name="EditRegion2" -->
+<section id="part3" class="s3">
+  <!-- Third Container (Grid) -->
+  <div class="container-3 text-center">
+    <h3 style="margin: 50px">Tips</h3>
+    <br>
+    <div class="row">
+      <div class="col-sm-4"> <img src="../images/mood.jpeg" class="transition" style="width:80%;margin-left:5px;" alt="Image">
+        <div style="margin:20px">
+          <h4>Mood</h4>
+          <p> 一、釋放情緒<br>
+            二、與人交流<br>
+            三、多看書籍<br>
+            四、寫寫日記<br>
+            五、充實自我<br>
+            六、不斷學習<br>
+            七、獎勵自己<br>
+            八、跳脫痛苦 </p>
+        </div>
+      </div>
+      <div class="col-sm-4"><br>
+        <img src="../images/yoga.jpeg" class="transition" style="width:80%" alt="Image">
+        <div style="margin: 20px"><br>
+          <br>
+          <h4>Yoga</h4>
+          <p> 一、 暗暗的房間，鬆鬆的衣褲<br>
+            二、 深深地呼吸三次，慢-憋-吐，如釋重負<br>
+            三、 潛意識引導各個部位放鬆，約6~7分鐘 </p>
+        </div>
+      </div>
+      <div class="col-sm-4"> <img src="../images/formula.jpeg" class="transition" style="width:80%;margin-right:5px;" alt="Image">
+        <div style="margin: 20px">
+          <h4>Formula</h4>
+          <p> 一、 記取教訓＋對症下藥＝積極進取（信念）<br>
+            二、 失敗＝放棄，失敗≠做不到<br>
+            三、 ∞堅持到底的信心 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="part4" class="s4">
+  <div class="row container-4">
+    <div class="col-sm-6" align="center"><br><br><br><br><br><br>
+      <img src="../images/belief.jpeg" class="img-responsive margin sport_photo_left" alt="Image"> </div>
+    <div class="col-sm-6"><br><br><br><br><br><br><br><br>
+      <p class="sport_text_left" > 
+        <b style="font-size: 25px">Belief</b><br>
+        <br>
+        兩個人從牢中的鐵窗望出去<br>
+        一個人看到泥土<br>
+        一個人卻看到了星星 
+      </p>
+    </div>
+  </div>
+</section>
+<section class="s4">
+  <div class="row container-4">
+    <div class="col-sm-6">
+      <p class="sport_text_right" > <br>
+        <br><br><br><br>
+        <b style="font-size: 25px">Goal</b><br>
+        <br>
+        成功人士總是在事情發生前作好計劃<br>
+        喜歡將一切提前 </p>
+    </div><br><br><br>
+    <div class="col-sm-6" align="left"> <img src="../images/goal.png" class="img-responsive margin sport_photo_right" alt="Image"> </div>
+  </div>
+</section>
+<section class="s4">
+  <div class="row container-4">
+    <div class="col-sm-6" align="center"><br>
+      <img src="../images/diligent.jpeg" class="img-responsive margin sport_photo_left" alt="Image"> </div>
+    <div class="col-sm-6">
+      <p class="sport_text_left"> <b style="font-size: 25px">Diligent</b><br>
+        <br>
+        在現代的企業中<br>
+        大致可以將人才分成兩類<br>
+        一種稱為「動力型」<br>
+        一種是「平橫型」<br>
+        動力型的人喜歡從事積極緊湊的工作<br>
+        有很好的感染力<br>
+        他們喜歡在工作中主動出擊<br>
+        平衡型的人比較像管理者<br>
+        擅長運籌帷幄 </p>
+    </div>
+  </div>
+</section>
+<!-- TemplateEndEditable --><!-- Footer -->
+<footer class="container-footer-food text-center">
+  <p>Know more about Eileen by
+  <a href="http://www.facebook.com/profile.php?id=100001369046293" class="fa fa-facebook"></a>
+  <a href="http://www.instagram.com/eileen8432/" class="fa fa-instagram"></a>
+  </p> 
+</footer>
+
+</body>
+</html>
